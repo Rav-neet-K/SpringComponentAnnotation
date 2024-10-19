@@ -11,6 +11,7 @@ public class SpringBootProject1Application {
         ConfigurableApplicationContext context = SpringApplication.run(SpringBootProject1Application.class, args);
         System.out.println(context.getBean(PlexOrder.class));
         System.out.println(context.getBean(Movie.class));
+        System.out.println(context.getBean(Customer.class));
 
 
     }
